@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply antialiased;
+  }
+
+  h1 {
+    @apply text-3xl font-extrabold tracking-tight md:text-5xl;
+  }
+  h2{
+    @apply text-sm;
+  }
+  
+  li {
+    @apply text-sm;
+  }
+ 
+}
